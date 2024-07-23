@@ -1,0 +1,22 @@
+{
+    "locales": [
+        "en",
+        "zh",
+        "id"
+    ],
+    "defaultLocale": "en",
+    "pages": {
+        "*": [
+            "common"
+        ],
+        "/*": [
+            "home"
+        ],
+        "/about": [
+            "about"
+        ],
+        "/posts/[slug]": [
+            "common"
+        ]
+    }
+}
