@@ -1,0 +1,13 @@
+{
+    "locales": [
+        "en",
+        "zh",
+        "id"
+    ],
+    "defaultLocale": "en",
+    "pages": {
+        "*":["post"],
+        "reg:^/posts/[slug]": ["post"],
+        "/data":["post"]
+    }
+}
