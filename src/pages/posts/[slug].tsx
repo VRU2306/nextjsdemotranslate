@@ -12,8 +12,8 @@ function Post() {
                 <title>{t('title')}</title>
             </Head>
             <div>
-                <h1>{t('title')}</h1>
-                <p>{t('content')}</p>
+                <h1>Normal Page</h1>
+                <p>{router.query.slug}</p>
                 <br />
                 <p>Translated Title: {t('title')}</p>
                 <p>Translated Content: {t('content')}</p>
