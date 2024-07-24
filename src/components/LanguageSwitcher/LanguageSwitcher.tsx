@@ -4,6 +4,7 @@ function LanguageSwitcher() {
   const router = useRouter();
 
   const changeLanguage = (locale: string) => {
+    console.log(router.asPath, router.pathname, locale)
     router.push(router.pathname, router.asPath, { locale });
   };
 

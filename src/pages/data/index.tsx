@@ -1,5 +1,4 @@
 import useTranslation from "next-translate/useTranslation";
-// import "@/i18n";
 function Data() {
     const { t, lang } = useTranslation('post');
     console.log(t(`title`), lang)
@@ -9,5 +8,4 @@ function Data() {
         </div>
     </>
 }
-// export 
 export default Data;
